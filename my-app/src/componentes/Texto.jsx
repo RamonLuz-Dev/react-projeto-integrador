@@ -1,5 +1,5 @@
 function Texto() {
-    return(
+    return (
         <></>
     )
 }

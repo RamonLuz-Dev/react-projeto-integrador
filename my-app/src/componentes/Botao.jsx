@@ -1,4 +1,4 @@
-function Botao (){
+function Botao() {
     return (
         <></>
     )
