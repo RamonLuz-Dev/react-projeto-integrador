@@ -4,6 +4,10 @@ import Aluno from './componentes/Aluno'
 import Botao from './componentes/Botao'
 import Mensagem from './componentes/Mensagem'
 import CampoNome from './componentes/CampoNome'
+import ContadorInterativo from './componentes/ContadorInterativo'
+import Saudacao from './componentes/Saudacao'
+import CadastroSimples from './componentes/CadastroSimples'
+import ListaNomes from './componentes/ListaNomes'
 
 
 function App() {
@@ -17,15 +21,10 @@ function App() {
 
   return (
     <div>
-      <h1>Minha primeira aula</h1>
-      <Titulo />
-      <Mensagem />
-      <Aluno />
-      <Botao />
-      <CampoNome />
-      <br></br>
-      <button onClick={mostrarMensagem}>Clique aqui</button>
-      <button onClick={botaoSaudacao}>Saudação</button>
+      <ContadorInterativo />
+      <Saudacao />
+      <CadastroSimples />
+      <ListaNomes />
     </div>
   )
 }
