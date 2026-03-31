@@ -8,6 +8,8 @@ import ContadorInterativo from './componentes/ContadorInterativo'
 import Saudacao from './componentes/Saudacao'
 import CadastroSimples from './componentes/CadastroSimples'
 import ListaNomes from './componentes/ListaNomes'
+import FormularioSimples from './componentes/FormularioSimples'
+import FormularioObjeto from './componentes/FormularioObjeto'
 
 
 function App() {
@@ -21,10 +23,8 @@ function App() {
 
   return (
     <div>
-      <ContadorInterativo />
-      <Saudacao />
-      <CadastroSimples />
-      <ListaNomes />
+      {/* <FormularioSimples /> */}
+      <FormularioObjeto />
     </div>
   )
 }
